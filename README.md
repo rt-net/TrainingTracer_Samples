@@ -7,7 +7,7 @@
 ## フォルダ構成
 
 * Arduino_Exercises
-　マニュアルパート4の練習問題の解答例
+　マニュアルパート4の演習問題の解答例
 * Arduino_Sample
 　マニュアルパート4のサンプルプログラム
 * Mbed_Sample
