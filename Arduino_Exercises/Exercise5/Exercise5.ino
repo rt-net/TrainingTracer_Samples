@@ -1,5 +1,5 @@
 /*
- *    Arduino_Exercises/practice5.ino
+ *    Arduino_Exercises/Exercise5/Exercise5.ino
  *    
  *    Copyright(C) 2020 RT Corporation <support@rt-net.jp>
  *      All rights reserved.

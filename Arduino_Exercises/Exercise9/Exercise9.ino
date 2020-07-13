@@ -1,5 +1,5 @@
 /*
- *    Arduino_Exercises/practice9.ino
+ *    Arduino_Exercises/Exercise9/Exercise9.ino
  *    
  *    Copyright(C) 2020 RT Corporation <support@rt-net.jp>
  *      All rights reserved.
