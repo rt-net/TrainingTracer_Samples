@@ -38,7 +38,7 @@ void loop() {
   if(digitalRead(SW2_Pin)==LOW){
     flag = 0;
     delay(30);
-    while(digitalRead(SW1_Pin)==LOW);
+    while(digitalRead(SW2_Pin)==LOW);
     delay(30);
   }
   if (flag == 1){
