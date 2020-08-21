@@ -319,7 +319,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 		  if (PWM_L_Value <= 0) {
 		    PWM_L_Value = 0; //モーター制御値上下ガード処理
 		  }
-		  TIM17->CCR1 = PWM_L_Value;
+		  TIM1->CCR4 = PWM_L_Value;
 
 		  //右モーターPWM出力
 		  if (PWM_R_Value < 0) {
@@ -334,7 +334,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 		  if (PWM_R_Value <= 0) {
 		    PWM_R_Value = 0; //モーター制御値上下ガード処理
 		  }
-		  TIM1->CCR4 = PWM_R_Value;
+		  TIM17->CCR1 = PWM_R_Value;
 	}
 }
 
