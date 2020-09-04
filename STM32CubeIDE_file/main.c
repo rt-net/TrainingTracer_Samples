@@ -283,11 +283,11 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 //PA5 ADC2_IN2  LL1
 //PA6 ADC2_IN3  LL2
 //PA7 ADC2_IN4  POWER
-//PB0 ADC1_IN11 マーカーL
-//PB1 ADC1_IN12 マーカーR
+//PB0 ADC1_IN11 マーカーR
+//PB1 ADC1_IN12 マーカーL
 		R2_Value = ADC1_DATA[0];
-		ML_Value = ADC1_DATA[1];
-		MR_Value = ADC1_DATA[2];
+		MR_Value = ADC1_DATA[1];
+		ML_Value = ADC1_DATA[2];
 		R1_Value = ADC2_DATA[0];
 		L1_Value = ADC2_DATA[1];
 		L2_Value = ADC2_DATA[2];
